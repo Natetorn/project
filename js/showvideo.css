@@ -1,0 +1,616 @@
+/* * {
+    background-color: #F6F5F5;
+ 
+    
+
+}
+
+
+body{
+    margin:0;
+    background-color: #F6F5F5;
+}
+
+.navbar-top {
+    position: fixed;
+    top: 0;
+    width: 1400px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr 1fr ; 
+  
+  } */
+
+/* 
+div.logo {
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;   
+    font-size: 45px ;
+    font-weight:900;
+    display: block;
+    color: #FF9016;
+}
+ 
+
+input.bx-sch{
+    width: 800px;
+    margin-top: 30px;
+   
+    box-sizing: border-box;
+    border: 2px solid rgb(247, 247, 247);
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: #EDEDED;
+    background-image: url('https://sv1.picz.in.th/images/2021/12/12/62Oipu.png') ;
+    font-family: 'Mitr', sans-serif;
+    background-size: 18px;
+    background-position: 760px 12px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 9px 27px;
+    align-items: center;
+}
+
+input.bx-sch:hover{
+    border: 2px solid #c7c7c7;
+} */
+/* 
+
+.cate-dd {
+    width: 138px;
+    height: 42px;
+    margin-top: 33px;
+    margin-left: 20px;
+    background-color: #A3E0D9;
+    color: #2C2C2C;
+    border-radius: 40px;
+    padding: 8px;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    
+    background-image: url('https://sv1.picz.in.th/images/2021/12/12/62nNCy.png');
+    background-size: 18px;
+    
+    background-position: 100px 12px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 19px;
+  }
+
+.category-dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dd-content {
+    margin-left: 20px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 135px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+}
+  
+.dd-content a {
+    color: black;
+    padding: 12px 16px;
+    
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: 'Mulish', sans-serif;
+}
+  
+.dd-content a:hover {
+    background-color: #D7F8F4
+}
+  
+.category-dropdown:hover .dd-content {
+    display: block;
+}
+  
+.category-dropdown:hover .cate-dd {
+    background-color: #A3E0D9;
+}
+
+
+.cart{
+
+}
+
+.add-cart{
+    width: 50px;
+    height: 42px;
+    margin-top: 33px;
+    margin-left: 20px;
+    background-color: #FFCB4C; 
+    border: none;
+    border-radius: 20px;
+    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    
+
+    background-image: url('https://sv1.picz.in.th/images/2021/12/12/62bVIe.png');
+    background-size: 22px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 10px;
+    
+    
+}
+.add-cart:hover{
+    background-color: #fcc02a; 
+    
+}
+  */
+
+
+
+/* 
+.allpage {  
+     margin: 0 auto;
+    margin-top: 118px;  
+    margin-left: 0px;  
+      margin-bottom: 50px;
+    background-size: 30px;
+    padding: 0 auto;
+    background-color: #F6F5F5;
+    
+} */
+/* 
+button.back-btn{
+    margin-left: 80px;
+    margin-top: 160px;
+    width: 150px;
+    height: 40px;
+    background-color: #c8f3e8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+    color: rgb(56, 56, 56);
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    background-image: url('https://sv1.picz.in.th/images/2022/03/13/rVZ5zR.png');
+    background-size: 22px;
+    
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 28px;
+    padding-top: 3px;
+    
+     
+
+}
+
+button.back-btn:hover{
+    background-color:#aed8cd;
+    color: white;
+}
+
+ 
+div.head-re h1{
+    margin-left: 630px;
+ 
+    font-size: 40px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    color: #009688;
+  
+}
+
+div.head-re P{
+    margin-left: 630px;
+    margin-top: 20PX;
+ 
+    font-size: 18px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: 900;
+    color: #272727;
+
+    
+     
+}
+   
+iframe.vd-re{
+    margin-left: 80px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    
+  
+ 
+}
+
+h6.cr{
+  
+    margin-left: 80px;
+    margin-top: 15px;
+    color: rgb(156, 156, 156);
+    cursor: pointer;
+} 
+   
+   
+   @media screen and (max-height: 450px) {
+     .sidenav {padding-top: 15px;}
+     .sidenav a {font-size: 18px;}
+   }
+   
+   
+   */
+
+
+
+
+
+
+
+
+   * {
+    background-color: #F6F5F5;
+    
+
+}
+
+
+body{
+    margin:0;
+    background-color: #F6F5F5;
+}
+
+.navbar-top {
+    position: fixed;
+    top: 0;
+    width: 1400px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr 1fr   ; /*from 250px*/
+  }
+
+
+div.logo {
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;   
+    font-size: 45px ;
+    font-weight:900;
+    display: block;
+    color: #FF9016;
+}
+ 
+form.sch-f{
+    width: 820px;
+}
+
+input.bx-sch{
+    width: 720px;
+    margin-top: 30px;
+   
+    box-sizing: border-box;
+    border: 2px solid rgb(247, 247, 247);
+    outline: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 16px;
+    background-color: #EDEDED;
+    font-family: 'Mitr', sans-serif;
+    padding: 10px 10px 9px 27px;
+/* 
+    background-image: url('https://sv1.picz.in.th/images/2021/12/12/62Oipu.png') ;
+    
+    background-size: 18px;
+    background-position: 760px 12px;
+    background-repeat: no-repeat;
+    align-items: center;
+     */
+
+    float: left;
+
+    
+    
+}
+
+input.bx-sch:hover{
+    border: 2px solid #c7c7c7;
+}
+
+
+button.bnt-sch {
+    width: 100px;
+    height: 46px;
+    margin-top: 30px;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #FF9016;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+   
+}
+
+button.bnt-sch:hover {
+    background-color:#ff9f38;;
+
+}
+
+
+/* 
+.cate-dd {
+    width: 138px;
+    height: 42px;
+    margin-top: 33px;
+    margin-left: 20px;
+    background-color: #A3E0D9;
+    color: #2C2C2C;
+    border-radius: 40px;
+    padding: 8px;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    
+    background-image: url('https://sv1.picz.in.th/images/2021/12/12/62nNCy.png');
+    background-size: 18px;
+    
+    background-position: 100px 12px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 19px;
+  }
+
+.category-dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dd-content {
+    margin-left: 20px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 135px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+}
+  
+.dd-content a {
+    color: black;
+    padding: 12px 16px;
+    
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: 'Mulish', sans-serif;
+}
+  
+.dd-content a:hover {
+    background-color: #D7F8F4
+}
+  
+.category-dropdown:hover .dd-content {
+    display: block;
+}
+  
+.category-dropdown:hover .cate-dd {
+    background-color: #A3E0D9;
+}
+ */
+
+.cart{
+
+}
+
+.add-cart{
+    width: 50px;
+    height: 42px;
+    margin-top: 33px;
+    margin-left: 20px;
+    background-color: #FFCB4C; 
+    border: none;
+    border-radius: 20px;
+    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+
+    background-image: url('https://sv1.picz.in.th/images/2021/12/12/62bVIe.png');
+    background-size: 22px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 10px;
+    
+    
+}
+.add-cart:hover{
+    background-color: #fcc02a; 
+    
+}
+
+button.btn-deli{
+    width: 120px;
+    height: 45px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;
+    background-color: #58c4d0;
+    border: none;
+    color: white;
+}
+
+
+/* .allpage {    
+      margin: 0 auto;
+    margin-top: 118px;
+    margin-left: 300px;  margin-bottom: 70px;
+    background-size: 30px;
+    padding: 0 auto;
+    background-color: #F6F5F5;
+    
+} */
+/* 
+div.head-sh p{
+    font-family:'Mulish', sans-serif; 
+    font-size: 14px;
+    margin: auto;
+    margin-bottom: 16px;
+    
+ 
+    font-weight: 900;
+    font-size: 40px;
+    color: #687DF0;
+    float: left;
+    
+}
+
+
+div.head-sh p.11 {
+    font-family: 'Mitr', sans-serif;
+    font-size: 14px;
+    margin-bottom: 16px;
+    
+ 
+    font-weight: 900;
+    font-size: 40px;
+    color: #687DF0;
+}
+ */
+
+
+.allpage { /* ต้ต้องใส่ทุกหน้าปรับใช้ทุกหน้า *****************************************************************************************/
+    /* Used in this example to enable scrolling ***********************************************************/
+   padding: 16px;
+   margin-top: 90px;
+   margin-left: 300px; /* Same as the width of the sidenav ***************************************************************/
+   /*margin-bottom: 400px; */
+   font-family: 'Mitr', sans-serif;
+   background-size: 30px;
+
+  
+
+   
+
+}
+
+
+div.head-sh p  {
+    font-family: 'Mitr', sans-serif;
+    font-size: 30px;
+    
+    
+ 
+    font-weight: 900;
+ 
+    color:#2EB08E;
+    
+   
+}
+
+div.head-sh  {
+   display: inline;
+   font-weight: 900;
+   font-size: 35px;
+   font-family: 'Mitr', sans-serif;
+   color: #2EB08E;
+   
+   
+   
+}
+
+
+div.vdo{
+   float: left;
+
+
+}
+
+div.vdo iframe{
+    margin-top: 20px;
+    width: 400PX;
+    height: 350PX;
+  
+}
+
+div.cr{
+   color: rgb(172, 172, 172);
+
+}
+
+
+
+div.step{
+   margin-top: 10px;
+  padding-left: 450px;
+ 
+  color: #666666;
+
+   font-size: 16px;
+   font-weight: 300;
+   color: #666666;
+   text-align: justify;
+   width: 620px;
+   
+}
+
+
+
+button.sgout{
+    width: 110px;
+    margin-top: 10px;
+     
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    
+}
+
+button.sgout:hover{
+    background-color: #ffc17e;
+    color: white;
+}
+
+ 
+ @media screen and (max-height: 450px) {
+   .sidenav {padding-top: 15px;}
+   .sidenav a {font-size: 18px;}
+ }
+
+
+
+
+
+
+ 
+   

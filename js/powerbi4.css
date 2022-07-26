@@ -1,0 +1,152 @@
+body{
+   
+   
+}
+
+div.lst-all-bnt{
+    margin-top: 45px;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+
+button.lst1{
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #cccccc;
+    color: white;
+    border: none;
+}
+
+button.lst1:hover{
+    background-color: #bebebe;
+}
+
+button.lst2{
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #98b6ec;
+    color: white;
+    border: none;
+}
+
+button.lst2:hover{
+    background-color: #a7c2f4;
+}
+
+button.lst3{
+    width: 250px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #cccccc;
+    color: white;
+    border: none;
+}
+
+button.lst3:hover{
+    background-color: #bebebe;
+}
+
+button.lst4{
+    width: 250px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #cccccc;
+    color: white;
+    border: none;
+}
+
+button.lst4:hover{
+    background-color: #bebebe;
+}
+
+button.lst5{
+    width: 250px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #cccccc;
+    color: white;
+    border: none;
+}
+
+button.lst5:hover{
+    background-color: #bebebe;
+    
+}
+
+
+
+form.fm-bi4{
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    margin-left: 340px;
+}
+
+form p{
+ 
+    margin-left: 100px;
+    font-weight: 800;
+    color: #e25b45;
+}
+
+select.drop-m{
+    width: 245px;
+    height: 45px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(91, 91, 91);
+    border-radius: 10px;
+}
+
+option.drop-m-op{
+    cursor: pointer;
+     border: none;
+     margin: 10px;
+ }
+
+select.drop-y{
+    width: 245px;
+    height: 45px;
+    font-size: 16px;
+    
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(91, 91, 91);
+    border-radius: 10px;
+}
+
+
+
+option.drop-y-op{
+   cursor: pointer;
+    border: none;
+    margin: 10px;
+}
+
+input.sw-s{
+    margin-top: 15px;
+    width: 110px;
+    height: 35px;
+    margin-left: 61px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #e98b90;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,168 @@
+*{
+
+}
+
+div.fir{
+    
+  
+}
+
+div.first-logo h1{
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 320px;
+    text-align: center;
+  
+    
+  
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: #FF9016;
+}
+
+div.em-dv{
+    margin-top: 60px;
+    margin-left: 230px;
+}
+
+input.em{
+    width: 500px;
+    margin: auto;
+ 
+   
+    
+    box-sizing: border-box;
+    border: 1px solid #ECECEC;
+    border-radius: 30px;
+
+    font-size: 16px ;
+    font-family: 'Mulish', sans-serif;
+
+    background-color: #F8F8F8;
+    background-image: url('https://sv1.picz.in.th/images/2021/12/08/6oRMlW.png');
+    background-size: 25px;
+    background-position: 15px 11.5px;  
+    background-repeat: no-repeat;
+    padding:11px 20px 10px 44px;
+}
+
+
+div.pass-dv{
+    margin-left: 230px; 
+}
+
+
+input.pass{
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+  
+   
+
+    box-sizing: border-box;
+    border: 1px solid #ECECEC;
+    border-radius: 30px;
+
+    font-size: 16px ;
+    font-family: 'Mulish', sans-serif;
+    
+
+    background-color: #F8F8F8;
+    background-image: url('https://sv1.picz.in.th/images/2021/12/08/6oxz79.png');
+    background-size: 20px;
+    background-position: 17px 10px; 
+    background-repeat: no-repeat;
+    padding:11px 20px 10px 44px;
+}
+
+p.show{
+    
+    font-size: 12px ;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: rgba(122, 122, 122, 0.747);
+ 
+     
+}
+
+input.show-p{
+    width: 10px;
+    height: 10px;
+    margin-left: 23px;
+    cursor: pointer;
+}
+
+
+div.btn-sign-all{
+    margin-top: 40px;
+    margin-left: 410px;
+    
+}
+
+input.btn-sgin{
+ 
+    margin-top: 5px;
+    width: 120px; 
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    background-color: #ffda33; 
+    color: white; 
+    border: none;
+    border-radius: 30px;
+    color: rgb(31, 31, 31);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+ 
+    
+    
+   
+}
+input.btn-sgin:hover{
+    background-color: #FDCF1A; 
+    color: white; 
+}
+
+
+input.btn-sgup{
+ 
+    margin-top: 5px;
+    width: 120px; 
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    background-color: #e9e9e9; 
+    border: none;
+    border-radius: 30px;
+    color: black; 
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+ 
+ 
+   
+}
+input.btn-sgup:hover{
+    background-color: #e2e2e2; 
+    color: white; 
+}
+
+
+
+img.picf{
+    width: 600px;
+   
+    margin: 0 auto;
+    top: 0;
+    position: fixed;
+    margin-left: 1000px;
+ 
+    
+}
+
+

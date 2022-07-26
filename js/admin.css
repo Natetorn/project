@@ -1,0 +1,490 @@
+* {
+    background-color: #F6F5F5;
+}
+
+
+body{
+    margin:0;
+    background-color: #F6F5F5;
+}
+
+
+.navbar-top {
+    position: fixed;
+    top: 0;
+    width: 1535px;
+    height: 100px;
+    display: grid;
+    background-color: #F6F5F5;
+    grid-template-columns: auto ; /*from 250px*/
+  }
+
+
+
+div.logo{
+    width: 1535px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+img.lg-4sler {
+    width: 200px;
+    height: auto;
+     
+}
+ 
+
+.sidenav {
+    height: auto;
+    width: 300px;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 0;
+    overflow-x: hidden;
+    padding-top:0;
+    background-color: #F6F5F5;
+    
+}
+
+
+button.home{
+    width: 160px;
+    height: 38px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3px;
+    background-color: #32bea6;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    background-image: url('https://sv1.picz.in.th/images/2022/03/14/raCO0R.png');
+    background-size: 25px;
+    
+    background-position: 18px 7px;
+    background-repeat: no-repeat;
+     
+    
+}
+
+button.home:hover{
+     
+    background-color:#2bc2a9;
+}
+
+button.shipping{
+    width: 160px;
+    height: 38px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    background-color: #d5f3ed;
+    border: none;
+    border-left: 5px solid teal;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    background-image: url('https://sv1.picz.in.th/images/2022/01/25/nuTZ2W.png');
+    background-size: 25px;
+    
+    background-position: 13px 7px;
+    background-repeat: no-repeat;
+     
+    
+}
+
+button.shipping:hover{
+    background-color:#ceebe5;
+}
+
+
+button.membr{
+    width: 160px;
+    height: 38px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    background-color: #d5f3ed;
+    border: none;
+    border-left: 5px solid #d5f3ed;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    background-image: url('https://sv1.picz.in.th/images/2022/02/26/rUn2Ze.png');
+    background-size: 20px;
+    
+    background-position: 15px 10px;
+    background-repeat: no-repeat;
+     
+    
+}
+
+button.membr:hover{
+    border-left: 5px solid #ceebe5;
+    background-color:#ceebe5;
+}
+
+button.my-prod{
+    width: 160px;
+    height: 38px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    background-color: #d5f3ed;
+    border: none;
+    border-left: 5px solid #d5f3ed;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    background-image: url('https://sv1.picz.in.th/images/2021/12/12/62ujae.png');
+    background-size: 18px;
+    
+    background-position: 15px 10px;
+    background-repeat: no-repeat;
+     
+    
+}
+
+button.my-prod:hover{
+    border-left: 5px solid #ceebe5;
+    background-color:#ceebe5;
+}
+
+
+button.res4ler{
+    width: 160px;
+    height: 38px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    background-color: #d5f3ed;
+    border: none;
+    border-left: 5px solid #d5f3ed;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    background-image: url('https://sv1.picz.in.th/images/2021/12/12/62uJs9.png');
+    background-size: 20px;
+    
+    background-position: 15px 10px;
+    background-repeat: no-repeat;
+     
+    
+}
+
+button.res4ler:hover{
+    border-left: 5px solid #ceebe5;
+    background-color:#ceebe5;
+}
+  
+button.salein4{
+    width: 160px;
+    height: 38px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    background-color: #d5f3ed;
+    border: none;
+    border-left: 5px solid #d5f3ed;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    background-image: url('https://sv1.picz.in.th/images/2022/02/26/rUr3qZ.png');
+    background-size: 25px;
+    
+    background-position: 15px 8px;
+    background-repeat: no-repeat;
+     
+    
+}
+
+button.salein4:hover{
+    border-left: 5px solid #ceebe5;
+    background-color:#ceebe5;
+}
+
+
+button.sgout{
+    width: 130px;
+    height: 40px;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+   
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    
+}
+
+button.sgout:hover{
+    background-color: #e65b5b;
+    color: white;
+}
+
+.navbar-bottom {
+    overflow: hidden;
+    position: fixed;
+    left: 300px;
+    bottom: 0;
+    width: auto;
+    height: auto;
+}
+
+
+
+
+.allpage { /* ต้ต้องใส่ทุกหน้าปรับใช้ทุกหน้า *****************************************************************************************/
+    /* Used in this example to enable scrolling ***********************************************************/
+   margin: 0 auto;
+   margin-top: 118px;
+   margin-left: 300px; /* Same as the width of the sidenav ***************************************************************/
+   margin-bottom: 70px;
+   background-size: 30px;
+   padding: 0 auto;
+   background-color: #F6F5F5;
+   
+}
+
+div.head-ship p{
+    height: 0;
+    margin-left: 400px;
+    color:#e25b45 ;
+    font-family: 'Mulish', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+ 
+
+input.bx-sch{
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 210px;
+    margin-bottom: 20px;
+   
+    box-sizing: border-box;
+    border: 2px solid rgb(247, 247, 247);
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: #EDEDED;
+    background-image: url('https://sv1.picz.in.th/images/2021/12/12/62Oipu.png') ;
+    font-family: 'Mitr', sans-serif ;
+    background-size: 18px;
+    background-position: 460px 12px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 9px 27px;
+    align-items: center;
+    
+    
+}
+
+input.bx-sch:hover{
+    border: 2px solid #c7c7c7;
+}
+
+
+
+
+ 
+div.manag-ship{
+    width: 700px;
+}
+
+table.tb-ship{
+    width: 700px;
+    margin-top: 55px;
+    margin-left: 100px;
+  
+     
+}
+
+
+tr.shptr{
+    text-align: center; 
+    border: 5px solid #F6F5F5;
+    border-radius: 200px;
+    color: #242424;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+}
+
+td.tdshp1{
+    width: 200px;
+    border-top-left-radius: 25px;
+    background-color:white;
+    padding: 8px;
+     
+}
+
+td.tdshp2{
+    width: 150px;
+    background-color:white;
+    padding: 8px;
+     
+}
+
+
+td.tdshp3{
+    width: 100px;
+    background-color:white;
+    padding: 8px;
+     
+}
+
+td.tdshp4{
+    width: 60px;
+    background-color:white;
+    padding: 8px;
+     
+}
+td.tdshp5{
+    width: 100px;
+    background-color:white;
+    padding: 8px;
+    border-top-right-radius: 25px;
+}
+
+
+tr.shiptr{ 
+    height: 60px;
+    padding-top: 5px;
+    border: 8px solid #F6F5F5;
+    border-radius: 200px;
+    color: #242424;
+    font-size: 16px; 
+
+}
+
+
+td.shiptd1{
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+td.shiptd2{
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
+
+}
+td.shiptd3{
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+
+
+td.btntd{
+    background-color: white;
+    text-align: center;
+
+}
+
+td.btntd a{ 
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    text-decoration:none;
+    background-color: #ffcb51;
+    border: none;
+    border-radius: 13px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+   
+     
+}
+ 
+
+td.btntd a:hover{
+    background-color: #fdbe2c;
+    color: white;
+}
+
+td.btntd1{
+    background-color: white;
+    text-align: center;
+
+}
+
+td.btntd1 a{ 
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    text-decoration:none;
+    background-color: #fd474a;
+    border: none;
+    border-radius: 13px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+     
+     
+    
+}
+ 
+
+td.btntd1 a:hover{
+    background-color: #fa1b1f;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+    
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  
+   

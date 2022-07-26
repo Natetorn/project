@@ -1,0 +1,558 @@
+* {
+    background-color: #F6F5F5;
+    
+
+}
+
+
+body{
+    margin:0;
+    background-color: #F6F5F5;
+}
+
+.navbar-top {
+    position: fixed;
+    top: 0;
+    width: 1400px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr 1fr ; /*from 250px*/
+  }
+
+
+div.logo {
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;   
+    font-size: 45px ;
+    font-weight:900;
+    display: block;
+    color: #FF9016;
+}
+
+
+form.sch-f{
+    width: 820px;
+}
+
+input.bx-sch{
+    width: 720px;
+    margin-top: 30px;
+   
+    box-sizing: border-box;
+    border: 2px solid rgb(247, 247, 247);
+    outline: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 16px;
+    background-color: #EDEDED;
+    font-family: 'Mitr', sans-serif;
+    padding: 10px 10px 9px 27px;
+/* 
+    background-image: url('https://sv1.picz.in.th/images/2021/12/12/62Oipu.png') ;
+    
+    background-size: 18px;
+    background-position: 760px 12px;
+    background-repeat: no-repeat;
+    align-items: center;
+     */
+
+    float: left;
+
+    
+    
+}
+
+input.bx-sch:hover{
+    border: 2px solid #c7c7c7;
+}
+
+
+button.bnt-sch {
+    width: 100px;
+    height: 46px;
+    margin-top: 30px;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #FF9016;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+   
+}
+
+button.bnt-sch:hover {
+    background-color:#ff9f38;;
+
+}
+
+
+
+
+
+ /* 
+
+input.bx-sch{
+    width: 800px;
+    margin-top: 30px;
+   
+    box-sizing: border-box;
+    border: 2px solid rgb(247, 247, 247);
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: #EDEDED;
+    background-image: url('https://sv1.picz.in.th/images/2021/12/12/62Oipu.png') ;
+    font-family: 'Mitr', sans-serif;
+    background-size: 18px;
+    background-position: 760px 12px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 9px 27px;
+    align-items: center;
+}
+
+input.bx-sch:hover{
+    border: 2px solid #c7c7c7;
+}
+
+
+.cate-dd {
+    width: 138px;
+    height: 42px;
+    margin-top: 33px;
+    margin-left: 20px;
+    background-color: #A3E0D9;
+    color: #2C2C2C;
+    border-radius: 40px;
+    padding: 8px;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    
+    background-image: url('https://sv1.picz.in.th/images/2021/12/12/62nNCy.png');
+    background-size: 18px;
+    
+    background-position: 100px 12px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 19px;
+  }
+
+.category-dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dd-content {
+    margin-left: 20px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 135px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+}
+  
+.dd-content a {
+    color: black;
+    padding: 12px 16px;
+    
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: 'Mulish', sans-serif;
+}
+  
+.dd-content a:hover {
+    background-color: #D7F8F4
+}
+  
+.category-dropdown:hover .dd-content {
+    display: block;
+}
+  
+.category-dropdown:hover .cate-dd {
+    background-color: #A3E0D9;
+}
+
+ */
+.cart{
+
+}
+
+.add-cart{
+    width: 50px;
+    height: 42px;
+    margin-top: 33px;
+    margin-left: 20px;
+    background-color: #FFCB4C; 
+    border: none;
+    border-radius: 20px;
+    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+
+    background-image: url('https://sv1.picz.in.th/images/2021/12/12/62bVIe.png');
+    background-size: 22px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 10px;
+    
+    
+}
+.add-cart:hover{
+    background-color: #fcc02a; 
+    
+}
+
+.sidenav {
+    height: auto;
+    width: 300px;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 0;
+    overflow-x: hidden;
+    padding-top:0;
+    
+  }
+
+div.profile{
+    width: 160px;
+    height: 240px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+     
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    background-color: white;;
+}
+
+.pic-pro{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px; 
+ 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+    background-color: white;
+     
+}
+
+.name-pro{
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    background-color: white;
+   
+}
+
+button.btn-pro{
+    width: 100px;
+    height: 25px;
+    background-color: #FBD8DA;
+    margin-top: 5PX;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5px;
+    border: none;
+    padding: 4px ;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    
+    font-size: 12px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+}
+button.btn-pro:hover{
+    background-color:#eebec1 ;
+}
+
+
+button.shop{
+    width: 160px;
+    height: 38px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    background-color: #e5e1ff;
+    border: none;
+    border-left: 5px solid rebeccapurple;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    background-image: url('https://sv1.picz.in.th/images/2021/12/12/62ujae.png');
+    background-size: 18px;
+    
+    background-position: 15px 10px;
+    background-repeat: no-repeat;
+ 
+    
+}
+
+button.shop:hover{
+    background-color:#dfdbf5;
+}
+
+button.Shop-set-ing{
+    width: 160px;
+    height: 38px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    background-color: #e5e1ff;
+    border: none;
+    border-left: 5px solid #e5e1ff; ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    background-image: url('https://sv1.picz.in.th/images/2022/01/23/ns5iJt.png');
+    background-size: 18px;
+    
+    background-position: 15px 10px;
+    background-repeat: no-repeat;
+       
+    
+}
+
+button.Shop-set-ing:hover{
+    background-color: #dfdbf5;
+    border-left: 5px solid #dfdbf5;
+}
+
+
+button.recipes{
+    width: 160px;
+    height: 38px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    background-color: #e5e1ff;
+    border: none;
+    border-left: 5px solid #e5e1ff; ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    
+    background-image: url('https://sv1.picz.in.th/images/2021/12/12/62uJs9.png');
+    background-size: 18px;
+    
+    background-position: 15px 10px;
+    background-repeat: no-repeat;
+ 
+    
+}
+
+button.recipes:hover{
+    background-color: #dfdbf5;
+    border-left: 5px solid #dfdbf5;
+}
+
+
+
+
+
+
+button.sgout{
+    width: 130px;
+    height: 40px;
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    
+}
+
+button.sgout:hover{
+    background-color: #e65b5b;
+    color: white;
+}
+
+ 
+
+.navbar-bottom {
+    overflow: hidden;
+    position: fixed;
+    left: 300px;
+    bottom: 0;
+    width: auto;
+    height: auto;
+}
+
+
+
+
+
+
+
+.allpage { /* ต้ต้องใส่ทุกหน้าปรับใช้ทุกหน้า *****************************************************************************************/
+     /* Used in this example to enable scrolling ***********************************************************/
+    margin: 0 auto;
+    margin-top: 118px;
+    margin-left: 300px; /* Same as the width of the sidenav ***************************************************************/
+    margin-bottom: 70px;
+    background-size: 30px;
+    padding: 0 auto;
+    background-color: #F6F5F5;
+    
+}
+
+div.head-sh-gust h1{
+    font-family: 'Mulish', sans-serif;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-left: 350px;
+    font-weight: 900;
+    font-size: 40px;
+    color: #687DF0;
+    
+}
+
+
+
+
+
+   
+     /*นอกกรอบกริด หรือทั้งหมด*/
+     .grid-container {
+       display: grid;
+       width: auto;
+       height: auto;
+        
+       align-content: center;
+       grid-template-columns: 250px 250px 250px;
+       
+       grid-gap: 30px ;
+       
+       padding: 10px;
+   
+   }
+   /*ในกรอบกริด*/
+   .grid-container > div {
+       width: 250px;
+       height: 330px;
+       background-color: white;
+       padding: auto 0px;
+       border-radius: 20px;
+      
+   }
+     
+     
+   .grid-item{
+       padding: auto;
+       background-color: white;
+   }  
+   
+   .grid-item img{
+       border-radius: 20px 20px 0px 0px; /* จำเป็นทุกอันของกริดที่มีรูป*/
+   
+   }
+   
+   .grid-item h6{
+       margin: 0;
+       padding: 0 auto;
+       padding-top: 15px;
+       padding-left: 20px;
+       background-color: white;
+       font-size: 15px;
+       font-family: 'Mitr', sans-serif;
+       font-weight: 600;
+       color: #535353;
+      
+   }
+   
+   p.price{
+    padding: 0 auto;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family:'Mulish', sans-serif;
+    font-weight: 900;
+    float: left;
+   
+     
+      
+    color: #02BD7A;
+    background-color: white;
+    
+   }
+   
+   
+   
+   button.btn-add{
+     width: 60px;
+     height: 30px;
+     margin: 0;
+     margin-left: 98px;
+  
+     font-family:'Mulish', sans-serif; 
+     font-size: 14px;
+     font-weight: 600;
+     border:none;
+     border-radius: 20px;
+     background-color: #FFCB4C;
+     padding: 2px 2px 2px 2px;
+     text-align: center;
+   
+      
+   }
+   
+   button.btn-add:hover{
+       background-color: #ffc123; 
+   }
+     
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   @media screen and (max-height: 450px) {
+     .sidenav {padding-top: 15px;}
+     .sidenav a {font-size: 18px;}
+   }
+   
+   
+   

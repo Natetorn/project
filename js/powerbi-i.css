@@ -1,0 +1,304 @@
+body{
+   
+   
+}
+
+div.lst-all-bnt{
+    margin-top: 85px;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+
+button.lst1{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #98b6ec;
+    
+    color: white;
+    border: none;
+}
+
+button.lst1:hover{
+    background-color: #a7c2f4;
+}
+
+
+button.lst1:before {
+    font-family: 'Mitr', sans-serif ;
+      content: attr(data-hover);
+      visibility: hidden;
+      opacity: 0;
+      width: 180px;
+      font-size: 12px;
+      background-color: rgb(255, 255, 255);
+      color: #000000;
+      text-align: center;
+      border-radius: 10px;
+      padding: 10px 0;
+      transition: opacity 0.3s ease-in-out;
+    
+      position: absolute;
+      z-index: 1;
+      left: 6PX;
+      bottom: 60px;
+    }
+    
+button.lst1:hover:before {
+      opacity: 1;
+      visibility: visible;
+    opacity: 0.8; 
+    }
+    
+
+/* 0000000000000000000000000000000000000000000000000000000000000000000000 */
+
+
+
+button.lst2{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #cccccc;
+    color: white;
+    border: none;
+}
+
+button.lst2:hover{
+    background-color: #bebebe;
+}
+
+
+
+
+button.lst2:before {
+    font-family: 'Mitr', sans-serif ;
+      content: attr(data-hover);
+      visibility: hidden;
+      opacity: 0;
+      width: 180px;
+      font-size: 12px;
+      background-color: rgb(255, 255, 255);
+      color: #000000;
+      text-align: center;
+      border-radius: 10px;
+      padding: 10px 0;
+      transition: opacity 0.3s ease-in-out;
+    
+      position: absolute;
+      z-index: 1;
+      left: 6PX;
+      bottom: 60px;
+    }
+    
+button.lst2:hover:before {
+      opacity: 1;
+      visibility: visible;
+    opacity: 0.8; 
+    }
+    
+
+
+/* 0000000000000000000000000000000000000000000000000000000000000000000000 */
+
+
+button.lst3{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #cccccc;
+    color: white;
+    border: none;
+    position: relative;
+}
+
+button.lst3:hover{
+    background-color: #bebebe;
+}
+
+
+
+button.lst3:before {
+    font-family: 'Mitr', sans-serif ;
+      content: attr(data-hover);
+      visibility: hidden;
+      opacity: 0;
+      width: 180px;
+      font-size: 12px;
+      background-color: rgb(255, 255, 255);
+      color: #000000;
+      text-align: center;
+      border-radius: 10px;
+      padding: 10px 0;
+      transition: opacity 0.3s ease-in-out;
+    
+      position: absolute;
+      z-index: 1;
+      left: 6PX;
+      bottom: 60px;
+    }
+    
+button.lst3:hover:before {
+      opacity: 1;
+      visibility: visible;
+    opacity: 0.8; 
+    }
+    
+
+
+
+/* 0000000000000000000000000000000000000000000000000000000000000000000000 */
+
+
+
+button.lst4{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #cccccc;
+    color: white;
+    border: none;
+}
+
+button.lst4:hover{
+    background-color: #bebebe;
+}
+
+
+
+
+button.lst4:before {
+    font-family: 'Mitr', sans-serif ;
+      content: attr(data-hover);
+      visibility: hidden;
+      opacity: 0;
+      width: 180px;
+      font-size: 12px;
+      background-color: rgb(255, 255, 255);
+      color: #000000;
+      text-align: center;
+      border-radius: 10px;
+      padding: 10px 0;
+      transition: opacity 0.3s ease-in-out;
+    
+      position: absolute;
+      z-index: 1;
+      left: 6PX;
+      bottom: 60px;
+    }
+    
+button.lst4:hover:before {
+      opacity: 1;
+      visibility: visible;
+    opacity: 0.8; 
+    }
+    
+
+
+/* 0000000000000000000000000000000000000000000000000000000000000000000000 */
+
+
+button.lst5{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #cccccc;
+    color: white;
+    border: none;
+}
+
+button.lst5:hover{
+    background-color: #bebebe;
+    
+}
+
+
+button.lst5:before {
+    font-family: 'Mitr', sans-serif ;
+      content: attr(data-hover);
+      visibility: hidden;
+      opacity: 0;
+      width: 200px;
+      font-size: 12px;
+      background-color: rgb(255, 255, 255);
+      color: #000000;
+      text-align: center;
+      border-radius: 10px;
+      padding: 10px 0;
+      transition: opacity 0.3s ease-in-out;
+    
+      position: absolute;
+      z-index: 1;
+      left: 6PX;
+      bottom: 60px;
+    }
+    
+button.lst5:hover:before {
+      opacity: 1;
+      visibility: visible;
+    opacity: 0.8; 
+    }
+    
+
+
+
+
+
+form.fm-bi-i{
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    margin-left: 340px;
+}
+
+form p{
+    margin-left: 100px;
+    font-weight: 800;
+    color: #e25b45;
+}
+
+select.drop-y{
+    width: 245px;
+    height: 45px;
+    font-size: 16px;
+    
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(91, 91, 91);
+    border-radius: 10px;
+}
+
+
+
+option.drop-y-op{
+   cursor: pointer;
+    border: none;
+    margin: 10px;
+}
+
+input.sw-s{
+    margin-top: 15px;
+    width: 110px;
+    height: 35px;
+    margin-left: 61px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #e98b90;
+    color: white;
+    border: none;
+}

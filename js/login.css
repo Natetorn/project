@@ -1,0 +1,139 @@
+div.grid-container{
+    display: grid; 
+    grid-template-columns: 1fr 1fr  ;
+}
+
+
+
+div.first-logo{
+    width: 100%;
+    margin:auto;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #FF9016;
+    text-align: center;
+}
+
+input.em{
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-bottom: 0.5%;
+    box-sizing: border-box;
+    border: 1px solid #ECECEC;
+    border-radius: 30px;
+
+    font-size: 20px ;
+    font-family: 'Mulish', sans-serif;
+
+    background-color: #F8F8F8;
+    background-image: url('img/email.png');
+    background-size: 5%;
+    background-position: 3% 48%; 
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 44px;
+}
+
+
+input.pass{
+    width: 70%;
+    margin: auto;
+    margin-top: 0;
+    margin-left: 25%;
+    margin-bottom: 0.5%;
+    box-sizing: border-box;
+    border: 1px solid #ECECEC;
+    border-radius: 30px;
+
+    font-size: 20px ;
+    font-family: 'Mulish', sans-serif;
+    
+
+    background-color: #F8F8F8;
+    background-image: url('img/pass.png');
+    background-size: 4%;
+    background-position: 3.8% 45%; 
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 44px;
+}
+
+
+
+
+
+
+div.btn-sign-all{
+    margin-top: 50px;
+    left: 40px;
+    
+}
+
+input.btn-sgin{
+    width: 130px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 30px;
+    color: rgb(31, 31, 31);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    left: 52%;
+    
+    
+   
+}
+input.btn-sgin:hover{
+    background-color: #FDCF1A; 
+    color: rgb(31, 31, 31); 
+}
+
+
+
+input.btn-sgup{
+    width: 130px; 
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 30px;
+    color: rgb(31, 31, 31);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    left: 52%;
+   
+}
+input.btn-sgup:hover{
+    background-color: #FDCF1A; 
+    color: rgb(31, 31, 31); 
+}
+
+
+
+
+.picfirst{
+    width: 100%;
+    position: fixed ;
+    top:0;
+    left: 61%;
+    bottom: 0;
+}
+
+.pichid{
+    width: 700px;
+    height: 90px;
+    top:0;
+    left: 61%;
+}

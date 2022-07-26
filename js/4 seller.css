@@ -1,0 +1,191 @@
+div.grid-container{
+    display: grid; 
+    grid-template-columns: 1fr 1fr  ;
+}
+
+
+
+div.first-logo{
+    width: 300;
+    margin:auto;
+    margin-top: 100px;
+    margin-left: 140px;
+ 
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: #687DF0;
+    text-align: center;
+}
+
+input.em{
+    width: 500px;
+    margin: auto;
+    margin-left: 200px;
+ 
+   
+    
+    box-sizing: border-box;
+    border: 1px solid #ECECEC;
+    border-radius: 30px;
+
+    font-size: 16px ;
+    font-family: 'Mulish', sans-serif;
+
+    background-color: #F8F8F8;
+    background-image: url('https://sv1.picz.in.th/images/2021/12/08/6oRMlW.png');
+    background-size: 25px;
+    background-position: 15px 11.5px;  
+    background-repeat: no-repeat;
+    padding:11px 20px 10px 44px;
+}
+
+
+input.pass{
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 200px;
+  
+   
+
+    box-sizing: border-box;
+    border: 1px solid #ECECEC;
+    border-radius: 30px;
+
+    font-size: 16px ;
+    font-family: 'Mulish', sans-serif;
+    
+
+    background-color: #F8F8F8;
+    background-image: url('https://sv1.picz.in.th/images/2021/12/08/6oxz79.png');
+    background-size: 20px;
+    background-position: 17px 10px; 
+    background-repeat: no-repeat;
+    padding:11px 20px 10px 44px;
+}
+
+
+p.show{
+    margin-left: 200px;
+    font-size: 12px ;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: rgba(122, 122, 122, 0.747);
+ 
+     
+}
+
+input.show-p{
+    width: 10px;
+    height: 10px;
+    margin-left: 23px;
+    cursor: pointer;
+}
+
+
+
+
+div.btn-sign-all{
+    margin-top: 50px;
+    left: 40px;
+    
+}
+
+input.btn-sgin{
+    margin-left: 380px;
+    margin-top: 5px;
+    width: 120px; 
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    background-color: #8f9fff;
+    color: white; 
+    border: none;
+    border-radius: 30px;
+    color: rgb(31, 31, 31);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+ 
+    
+    
+   
+}
+input.btn-sgin:hover{
+    background-color: #6275e2;
+    color: white; 
+}
+
+
+
+
+input.btn-sgup{
+    margin-left: 380px;
+    margin-top: 5px;
+    width: 120px; 
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    background-color: #a3e9b1; 
+    border: none;
+    border-radius: 30px;
+    color: black; 
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+ 
+ 
+   
+}
+input.btn-sgup:hover{
+    background-color: #9ADDA7; 
+    color: white; 
+}
+
+
+
+input.btn-inx{
+    margin-left: 380px;
+    margin-top: 5px;
+    width: 120px; 
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    background-color: #e9e9e9; 
+    border: none;
+    border-radius: 30px;
+    color: black; 
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+ 
+ 
+   
+}
+input.btn-inx:hover{
+    background-color: #e2e2e2; 
+    color: white; 
+}
+
+
+
+.picfirst{
+    width: 100%;
+    position: fixed ;
+    top:0;
+    left: 61%;
+    bottom: 0;
+}
+
+.pichid{
+    width: 700px;
+    height: 90px;
+    top:0;
+    left: 61%;
+}

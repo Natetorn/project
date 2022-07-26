@@ -1,0 +1,171 @@
+div.grid-container{
+    display: grid; 
+    grid-template-columns: 1fr 1fr  ;
+}
+
+
+
+.picfirst{
+    width: 100%;
+    position: fixed ;
+    top:0;
+    left: 0;
+    bottom: 0;
+}
+
+.pichid{
+    width: 700px;
+    height: 90px;
+    top:0;
+    left: 0;
+}
+
+
+div.first-logo{
+    width: 50%;
+    margin:auto;
+    margin-top: 30px;
+    margin-right: 12%;
+    margin-left: 12%;
+    
+    font-family: 'Pacifico', cursive;
+    font-size: 55px;
+    color: #FF9016;
+    text-align: center;
+    
+    
+    
+    
+}
+
+div.first-promotion-picpro{
+    width: 90%;
+    height: 20%;
+    margin: auto;
+    margin-top: 0;
+   
+    
+}
+    
+ 
+
+
+
+div.btn-all{
+    margin-top: 40px;
+    left: 40px;
+}
+
+
+
+
+input.btn-sgin{
+    width: 130px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 30px;
+    color: rgb(31, 31, 31);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    right: -27.5%;
+    
+    
+   
+}
+input.btn-sgin:hover{
+    background-color: #B0E7EA; 
+    color: rgb(31, 31, 31); 
+}
+
+
+
+
+
+
+
+input.btn-sgup{
+    width: 130px; 
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 30px;
+    color: rgb(31, 31, 31);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    right: -27.5%;
+   
+}
+input.btn-sgup:hover{
+    background-color: #B0E7EA; 
+    color: rgb(31, 31, 31); 
+}
+
+
+
+
+
+
+
+
+
+input.btn-4sl{
+    width: 130px; 
+    
+    font-family: 'Mulish', sans-serif;
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 30px;
+    color: rgb(31, 31, 31);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    right: -27.5%;
+    
+   
+}
+input.btn-4sl:hover{
+    background-color: #687DF0; 
+    color: white; 
+}
+
+input.btn-shop{
+    width: 200px; 
+    
+    font-family: 'Mulish', sans-serif;
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 30px;
+    color: rgb(31, 31, 31);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    right: -23%;
+    
+   
+}
+input.btn-shop:hover{
+    background-color: #b3a9f7;
+    color: rgb(255, 255, 255); 
+}
+
+
+
+
+

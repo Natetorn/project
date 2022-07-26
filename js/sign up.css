@@ -1,0 +1,226 @@
+div.grid-container{
+    display: grid; 
+    grid-template-columns: 1fr 1fr  ;
+}
+
+.pichid{
+    width: 700px;
+    height: 90px;
+    top:0;
+    left: 0;
+}
+
+
+div.first-logo{
+    width: 100%;
+    margin: auto;
+    margin-right:50%;
+    margin-left: -11%;
+    
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #FF9016;
+    text-align: center;
+}
+
+
+
+input.name{
+    width: 70%;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 4%;
+    margin-right: 10%;
+    margin-bottom: 0.5%;
+    box-sizing: border-box;
+    border: 1px solid #ECECEC;
+    border-radius: 30px;
+    font-size: 20px ;
+    font-family: 'Mulish', sans-serif;
+
+    background-color: #F8F8F8;
+    background-image: url('https://sv1.picz.in.th/images/2021/12/08/6oRSKP.png');
+    background-size: 26px;
+    background-position: 12.8px 10.8px; 
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 44px;
+}
+
+input.em{
+    width: 70%;
+    margin: auto;
+    margin-top: 0;
+    margin-left: 4%;
+    margin-right: 10%;
+    margin-bottom: 0.5%;
+    box-sizing: border-box;
+    border: 1px solid #ECECEC;
+    border-radius: 30px;
+
+    font-size: 20px ;
+    font-family: 'Mulish', sans-serif;
+
+    background-color: #F8F8F8;
+    background-image: url('https://sv1.picz.in.th/images/2021/12/08/6oRMlW.png');
+    background-size: 26px;
+    background-position: 13px 13px;  
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 44px;
+}
+
+
+input.pass{
+    width: 70%;
+    margin: auto;
+    margin-top: 0;
+    margin-left: 4%;
+    margin-right: 10%;
+    margin-bottom: 0.5%;
+    box-sizing: border-box;
+    border: 1px solid #ECECEC;
+    border-radius: 30px;
+
+    font-size: 20px ;
+    font-family: 'Mulish', sans-serif;
+    
+
+    background-color: #F8F8F8;
+    background-image: url('https://sv1.picz.in.th/images/2021/12/08/6oxz79.png');
+    background-size: 22px;
+    background-position: 16px 11px; 
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 44px;
+}
+
+input.tel{
+    width: 70%;
+    margin: auto;
+    margin-top: 0;
+    margin-left: 4%;
+    margin-right: 10%;
+    margin-bottom: 0.5%;
+    box-sizing: border-box;
+    border: 1px solid #ECECEC;
+    border-radius: 30px;
+
+    font-size: 20px ;
+    font-family: 'Mulish', sans-serif;
+    
+
+    background-color: #F8F8F8;
+    background-image: url('https://sv1.picz.in.th/images/2021/12/08/6ox4cJ.png');
+    background-size: 27px;
+    background-position: 12.8px 11.20px; 
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 44px;
+}
+
+input.ad{
+    width: 70%;
+    margin: auto;
+    margin-top: 0;
+    margin-left: 4%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: 1px solid #ECECEC;
+    border-radius: 30px;
+
+    font-size: 20px ;
+    font-family: 'Mulish', sans-serif ,'Prompt', sans-serif;
+    
+
+    background-color: #F8F8F8;
+    background-image: url('https://sv1.picz.in.th/images/2021/12/08/6oEsUl.png');
+    background-size: 26px;
+    background-position: 14px 11px; 
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 44px;
+}
+
+
+p.show{
+    
+    font-size: 15px ;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: rgba(122, 122, 122, 0.747);
+ 
+     
+}
+
+input.show-p{
+    width: 15px;
+    height: 13px;
+    margin-left: 20px;
+    cursor: pointer;
+     
+    
+}
+
+
+div.btn-sign-all{
+    margin-top: 5px;
+    left: 40px;
+    
+}
+
+
+input.btn-sgup{
+    width: 130px; 
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 30px;
+    color: rgb(31, 31, 31);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    left: 31%;
+   
+}
+input.btn-sgup:hover{
+    background-color: #9ADDA7; 
+    color: rgb(31, 31, 31); 
+}
+
+
+input.btn-sgin{
+    width: 130px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 30px;
+    color: rgb(31, 31, 31);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    left: 31%
+    
+    
+   
+}
+input.btn-sgin:hover{
+    background-color: #FDCF1A; 
+    color: rgb(31, 31, 31); 
+}
+
+
+.picfirst{
+    width: 50%;
+    position: fixed ;
+    top:0;
+    left: 0%;
+    bottom: 0;
+}
+
+
+

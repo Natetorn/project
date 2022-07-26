@@ -1,0 +1,158 @@
+*{
+
+}
+
+div.fir{
+    
+  
+}
+
+div.first-logo h1{
+    width: 400px;
+    margin-top: 80px;
+    margin-left: 280px;
+    text-align: center;
+  
+    
+  
+    font-family: 'Pacifico', cursive;
+    font-size: 55px;
+    color: #FF9016;
+}
+
+div.em-dv{
+    margin-top: 60px;
+    margin-left: 230px;
+}
+
+input.em{
+    width: 500px;
+    height: 45px;
+    
+  
+    box-sizing: border-box;
+    border: 1px solid #ECECEC;
+    border-radius: 30px;
+
+    font-size: 20px ;
+    font-family: 'Mulish', sans-serif;
+
+    background-color: #F8F8F8;
+    background-image: url('img/email.png');
+    background-size: 25px ;
+    background-position: 15px 12px ; 
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 44px;
+}
+
+
+div.pass-dv{
+    margin-left: 230px; 
+}
+
+
+input.pass{
+    width: 500px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 1px solid #ECECEC;
+    border-radius: 30px;
+
+    font-size: 20px ;
+    font-family: 'Mulish', sans-serif;
+    
+
+    background-color: #F8F8F8;
+    background-image: url('img/pass.png');
+    background-size: 21px ;
+    background-position: 17px 10px ; 
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 44px;
+}
+
+
+p.show{
+    
+    font-size: 15px ;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: rgba(122, 122, 122, 0.747);
+ 
+     
+}
+
+input.show-p{
+    width: 15px;
+    height: 13px;
+    margin-left: 20px;
+    cursor: pointer;
+     
+    
+}
+
+
+div.btn-sign-all{
+    margin-top: 40px;
+    margin-left: 420px;
+    
+}
+
+input.btn-sgin{
+    width: 130px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 30px;
+    color: rgb(31, 31, 31);
+    padding: 12px 30px;
+   
+    text-decoration: none;
+  
+    font-size: 14px;
+  
+  
+    
+    
+   
+}
+input.btn-sgin:hover{
+    background-color: #FDCF1A; 
+    color: rgb(31, 31, 31); 
+}
+
+
+
+input.btn-sgup{
+    width: 130px; 
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 30px;
+    color: rgb(31, 31, 31);
+    padding: 12px 30px;
+  
+    text-decoration: none;
+ 
+    font-size: 14px;
+    
+}
+input.btn-sgup:hover{
+    background-color: #9ADDA7; 
+    color: rgb(31, 31, 31); 
+}
+
+
+img.picf{
+    width: 600px;
+   
+    margin: 0 auto;
+    top: 0;
+    position: fixed;
+    margin-left: 1000px;
+ 
+    
+}
+
+
